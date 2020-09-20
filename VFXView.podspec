@@ -26,14 +26,14 @@ Pod::Spec.new do |spec|
                :tag => "#{spec.version}" }
 
   spec.ios.deployment_target = "10.0"
-  spec.osx.deployment_target = "10.15"
+  #spec.osx.deployment_target = "10.15"
   spec.requires_arc = true
 
   spec.framework = "UIKit"
 
   spec.source_files = "VFXView/**/*.{swift}"
 
-  spec.resources = "VFXView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  #spec.resources = "VFXView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   spec.swift_version = "5"
 
