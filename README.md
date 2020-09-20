@@ -2,6 +2,10 @@
 
 VFXView is a framework custom UIView by add some animation and effect.
 
+### How to use
+
+> pod 'VFXView'
+
 ### Snow fall 
 
 With **VFXSnowView** you can create the snow fall effect on your view.
