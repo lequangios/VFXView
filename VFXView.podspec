@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.name = "VFXView"
   spec.summary = "VFXView is a custom UIView with animation effect."
  
-  spec.version = "0.1.0"
+  spec.version = "0.2.0"
 
 
   spec.license = { :type => "MIT", :file => "LICENSE" }
