@@ -9,95 +9,107 @@ import UIKit
 
 struct VFXSnowViewParticle {
     var x,y,r,d:CGFloat
-    mutating func refresh(_ length:Int, _ size:CGSize, _ radius:CGFloat) {
-        self.x = size.width * CGFloat.random(in: 0...1)
-        self.y = size.height * CGFloat.random(in: 0...1)
-        self.r = radius * CGFloat.random(in: 0...1) + 1
-        self.d = CGFloat(length) * CGFloat.random(in: 0...1)
+    private var i:Int
+    private var color:RGBA
+}
+
+extension VFXSnowViewParticle : VFXParticle {
+    typealias RawDataType = (radius:CGFloat, color : RGBA)
+    static let raw:RawDataType = (1.0, RGBA.white)
+    
+    var index: Int {
+        get {
+            return i
+        }
+        set {
+            i = newValue
+        }
+    }
+    
+    mutating func update(_ rect: CGRect, _ value: Any) {
+        let angle = value as? CGFloat ?? 0.01
+        let width = rect.width
+        let height = rect.height
+        x += sin(angle) * 2.0
+        y += cos(angle + d) + 1.0 + r/2.0
+        if(x > width + 5 || x < -5 || y > height) {
+            if(i % 3 > 0) { //66.67% of the flakes
+                x = CGFloat.rand * width
+                y = -10
+            }
+            else {
+                //If the flake is exitting from the right
+                if(sin(angle) > 0) {
+                    //Enter from the left
+                    x = -5
+                    y = CGFloat.rand * height
+                }
+                else {
+                    //If the flake is exitting from the right
+                    x = width + 5
+                    y = CGFloat.rand * height
+                }
+            }
+        }
+    }
+    
+    static func particles(_ length: Int, _ rect: CGRect, _ value: Any) -> [VFXParticle] {
+        var list:[VFXParticle] = []
+        for i in 0...length {
+            let data = value as? RawDataType ?? (1.0, RGBA.white)
+
+            let x = rect.size.width * CGFloat.rand
+            let y = rect.size.height * CGFloat.rand
+            let r = data.radius * CGFloat.rand + 1
+            let d = CGFloat(length) * CGFloat.rand
+            let item = VFXSnowViewParticle(x: x, y: y, r: r, d: d, i:i, color: data.color)
+            list.append(item)
+        }
+        return list
     }
     
     func draw(_ ctx:CGContext){
+        ctx.setFillColor(color.cgColor)
         ctx.beginPath()
         ctx.addArc(center: CGPoint(x: x, y: y), radius: r, startAngle: 0, endAngle: CGFloat(2.0 * Double.pi), clockwise: true)
         ctx.closePath()
         ctx.fillPath()
     }
-    
-    static func makeParticles(_ length:Int, _ size:CGSize, _ radius:CGFloat) -> [VFXSnowViewParticle] {
-        var list:[VFXSnowViewParticle] = []
-        for _ in 0...length {
-            let x = size.width * CGFloat.random(in: 0...1)
-            let y = size.height * CGFloat.random(in: 0...1)
-            let r = radius * CGFloat.random(in: 0...1) + 1
-            let d = CGFloat(length) * CGFloat.random(in: 0...1)
-            let item = VFXSnowViewParticle(x: x, y: y, r: r, d: d)
-            list.append(item)
-        }
-        return list
-    }
 }
 
 public class VFXSnowView: VFXView {
-    private var particles:[VFXSnowViewParticle] = []
     private var angle:CGFloat = 0.0
     
-    public var particleColor:UIColor = .white {
+    public var snowRadius:CGFloat = 1.0 {
         didSet {
-            if(self.isAnimation == true) {
-                stopAnimation()
-                startAnimation()
-            }
+            createParticle()
         }
     }
     
-    override func setupView() {
-        particles = VFXSnowViewParticle.makeParticles(particleLength, CGSize(width: width, height: height), CGFloat(particleRadius))
+    public var snowCount:Int = 30 {
+        didSet {
+            createParticle()
+        }
+    }
+    
+    public var snowColor:RGBA = RGBA(r: 255, g: 255, b: 255, a: 0.5) {
+        didSet {
+            createParticle()
+        }
+    }
+    
+    public override func createParticle(data: Any? = nil) {
+        let value:VFXSnowViewParticle.RawDataType = (snowRadius, snowColor)
+        particles = VFXSnowViewParticle.particles(snowCount, bounds, value)
     }
     
     override func updateParticle() {
+        var newParticles = [VFXParticle]()
         angle += 0.01
-        var i:Int = 0
-        var newParticles = [VFXSnowViewParticle]()
         for var item in particles {
-            item.x += sin(angle) * 2.0
-            item.y += cos(angle + item.d) + 1.0 + item.r/2.0
-            if(item.x > width + 5 || item.x < -5 || item.y > height) {
-                if(i % 3 > 0) { //66.67% of the flakes
-                    item.x = CGFloat.random(in: 0...1) * width
-                    item.y = -10
-                }
-                else {
-                    //If the flake is exitting from the right
-                    if(sin(angle) > 0) {
-                        //Enter from the left
-                        item.x = -5
-                        item.y = CGFloat.random(in: 0...1) * height
-                    }
-                    else {
-                        //If the flake is exitting from the right
-                        item.x = width + 5
-                        item.y = CGFloat.random(in: 0...1) * height
-                    }
-                }
-            }
+            item.update(bounds, angle)
             newParticles.append(item)
-            i = i + 1
         }
         particles = newParticles
-    }
-    
-    open override func draw(_ rect: CGRect) {
-        if let ctx = UIGraphicsGetCurrentContext() {
-            ctx.beginTransparencyLayer(auxiliaryInfo: nil)
-            ctx.clear(bounds);
-            ctx.setFillColor(UIColor.clear.cgColor)
-            ctx.fill(bounds)
-            ctx.setFillColor(particleColor.cgColor);
-            for item in particles {
-                item.draw(ctx)
-            }
-            ctx.endTransparencyLayer()
-            updateParticle()
-        }
     }
 }
