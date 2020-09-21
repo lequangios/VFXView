@@ -35,6 +35,9 @@
 		5A4309082516384900684820 /* VFXViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4309072516384900684820 /* VFXViewExampleTests.swift */; };
 		5A4309132516384900684820 /* VFXViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4309122516384900684820 /* VFXViewExampleUITests.swift */; };
 		5A4309292516470B00684820 /* VFXView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4308BB25162C8400684820 /* VFXView.framework */; };
+		5AC3EBA025189E7A00D8C208 /* VFXParticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3EB9F25189E7A00D8C208 /* VFXParticleModel.swift */; };
+		5AC3EBA825189FAB00D8C208 /* Number+VFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3EBA725189FAB00D8C208 /* Number+VFX.swift */; };
+		5AC3EBB02518AA1F00D8C208 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3EBAF2518AA1F00D8C208 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,9 @@
 		5A43090E2516384900684820 /* VFXViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VFXViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4309122516384900684820 /* VFXViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFXViewExampleUITests.swift; sourceTree = "<group>"; };
 		5A4309142516384900684820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC3EB9F25189E7A00D8C208 /* VFXParticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFXParticleModel.swift; sourceTree = "<group>"; };
+		5AC3EBA725189FAB00D8C208 /* Number+VFX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number+VFX.swift"; sourceTree = "<group>"; };
+		5AC3EBAF2518AA1F00D8C208 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +200,9 @@
 		5A4308E72516333000684820 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5AC3EB9F25189E7A00D8C208 /* VFXParticleModel.swift */,
+				5AC3EBA725189FAB00D8C208 /* Number+VFX.swift */,
+				5AC3EBAF2518AA1F00D8C208 /* Color.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -441,9 +450,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC3EBA825189FAB00D8C208 /* Number+VFX.swift in Sources */,
 				5A4308E42516315300684820 /* VFXSnowView.swift in Sources */,
 				5A4308D925162CA600684820 /* VFXLayout.swift in Sources */,
+				5AC3EBA025189E7A00D8C208 /* VFXParticleModel.swift in Sources */,
 				5A4308DE25162E2400684820 /* VFXView.swift in Sources */,
+				5AC3EBB02518AA1F00D8C208 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

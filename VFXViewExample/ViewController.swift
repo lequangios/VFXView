@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        snowView.particleColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 0.5)
-        snowView.particleLength = 150
-        snowView.startAnimation()
+        snowView.snowCount = 150
+        snowView.snowRadius = 5
+        snowView.start()
     }
 
 
