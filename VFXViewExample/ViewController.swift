@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         snowView.snowCount = 150
         snowView.snowRadius = 5
-        snowView.start()
+        //snowView.start()
     }
 
 

@@ -4,7 +4,7 @@
 //
 //  Created by Le Quang on 9/19/20.
 //
-
+/*
 import UIKit
 
 struct VFXSnowViewParticle {
@@ -113,3 +113,4 @@ public class VFXSnowView: VFXView {
         particles = newParticles
     }
 }
+ */
