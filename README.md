@@ -108,39 +108,41 @@ With **VFXSnowView** you can create the snow fall effect on your view like bello
 
 With **VFXMidnightSnowView** you can create the snow fall effect on your view like bellow.
 
-<div align="center">
-<iframe src="https://giphy.com/embed/6U0eZDODQ2UcsC82NQ" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6U0eZDODQ2UcsC82NQ">via GIPHY</a></p>
-</div>
+<p align="center">
+  <img src="https://media.giphy.com/media/6U0eZDODQ2UcsC82NQ/giphy.gif">
+</p>
 
 #### 2.3.3 VFXFlyBubbleView
 
 With **VFXFlyBubbleView** you can create the snow fall effect on your view like bellow.
 
-<div align="center">
-<iframe src="https://giphy.com/embed/Jwk3s5Ofid76lPn0Oa" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Jwk3s5Ofid76lPn0Oa">via GIPHY</a></p>
-</div>
+<p align="center">
+  <img src="https://media.giphy.com/media/Jwk3s5Ofid76lPn0Oa/giphy.gif">
+</p>
 
 
 #### 2.3.4 VFXRainView
 
 With **VFXRainView** you can create the snow fall effect on your view like bellow.
 
-<div align="center">
-<iframe src="https://giphy.com/embed/jFteR9lEpzD4fe67EP" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jFteR9lEpzD4fe67EP">via GIPHY</a></p>
-</div>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/jFteR9lEpzD4fe67EP/giphy.gif">
+</p>
 
 #### 2.3.5 VFXLiquidView
 
 With **VFXLiquidView** you can create the snow fall effect on your view like bellow.
 
-<div align="center">
-<iframe src="https://giphy.com/embed/N6YRpVMnIUaGPXwJHk" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/N6YRpVMnIUaGPXwJHk">via GIPHY</a></p>
-</div>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/N6YRpVMnIUaGPXwJHk/giphy.gif">
+</p>
 
 #### 2.3.6 VFXBubblyView
 
 With ** VFXBubblyView** you can create the snow fall effect on your view like bellow.
 
-<div align="center">
-<iframe src="https://giphy.com/embed/w9xVWIW7Yyl6mDB9n5" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/w9xVWIW7Yyl6mDB9n5">via GIPHY</a></p>
-</div>
+<p align="center">
+  <img src="https://media.giphy.com/media/w9xVWIW7Yyl6mDB9n5/giphy.gif">
+</p>
