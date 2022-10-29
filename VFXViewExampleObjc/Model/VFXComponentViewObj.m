@@ -196,7 +196,7 @@
 
 -(void) showVFXMidnightSnowView:(UIButton*) btn {
     VFXMidnightSnowView* view = [[VFXMidnightSnowView alloc] initWithFrame:self.containerView.frame];
-    [self showVFXViewWithVFX:view andButton:btn andImage:[UIImage imageNamed:@"rain_bg"]];
+    [self showVFXViewWithVFX:view andButton:btn andImage:[UIImage imageNamed:@"midnight"]];
 }
 
 -(void) showVFXContourView:(UIButton*) btn {

@@ -86,6 +86,7 @@
     } completion:^(BOOL finished) {
         self.userInteractionEnabled = YES;
         [self.vfx setupVFXViewWithRect:self.vfxRect];
+        
     }];
 }
 
