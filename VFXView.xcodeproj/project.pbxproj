@@ -38,6 +38,86 @@
 		5AC3EBA025189E7A00D8C208 /* VFXParticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3EB9F25189E7A00D8C208 /* VFXParticleModel.swift */; };
 		5AC3EBA825189FAB00D8C208 /* Number+VFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3EBA725189FAB00D8C208 /* Number+VFX.swift */; };
 		5AC3EBB02518AA1F00D8C208 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3EBAF2518AA1F00D8C208 /* Color.swift */; };
+		5AD32435290D249B00D9D57D /* VFXLinearGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323DC290D249A00D9D57D /* VFXLinearGradientLayer.h */; };
+		5AD32436290D249B00D9D57D /* VFXLinearGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323DD290D249A00D9D57D /* VFXLinearGradientLayer.m */; };
+		5AD32437290D249B00D9D57D /* VFXLiquidView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323DF290D249A00D9D57D /* VFXLiquidView.m */; };
+		5AD32438290D249B00D9D57D /* VFXAntigravityFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323E0290D249A00D9D57D /* VFXAntigravityFlowView.m */; };
+		5AD32439290D249B00D9D57D /* VFXCosmosView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323E1290D249A00D9D57D /* VFXCosmosView.h */; };
+		5AD3243A290D249B00D9D57D /* VFXRainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323E2290D249A00D9D57D /* VFXRainView.m */; };
+		5AD3243B290D249B00D9D57D /* VFXContourView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323E3290D249A00D9D57D /* VFXContourView.h */; };
+		5AD3243C290D249B00D9D57D /* VFXBubblyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323E4290D249A00D9D57D /* VFXBubblyView.h */; };
+		5AD3243D290D249B00D9D57D /* VFXRipleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323E5290D249A00D9D57D /* VFXRipleView.m */; };
+		5AD3243E290D249B00D9D57D /* VFXFlyBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323E6290D249A00D9D57D /* VFXFlyBubbleView.m */; };
+		5AD3243F290D249B00D9D57D /* VFXSnowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323E7290D249A00D9D57D /* VFXSnowView.h */; };
+		5AD32440290D249B00D9D57D /* VFXView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323E8290D249A00D9D57D /* VFXView.h */; };
+		5AD32441290D249B00D9D57D /* VFXMidnightSnowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323E9290D249A00D9D57D /* VFXMidnightSnowView.h */; };
+		5AD32442290D249B00D9D57D /* VFXBokehPatternView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323EA290D249A00D9D57D /* VFXBokehPatternView.h */; };
+		5AD32443290D249B00D9D57D /* VFXLiquidView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323EB290D249A00D9D57D /* VFXLiquidView.h */; };
+		5AD32444290D249B00D9D57D /* VFXRipleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323EC290D249A00D9D57D /* VFXRipleView.h */; };
+		5AD32445290D249B00D9D57D /* VFXRainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323ED290D249A00D9D57D /* VFXRainView.h */; };
+		5AD32446290D249B00D9D57D /* VFXContourView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323EE290D249A00D9D57D /* VFXContourView.m */; };
+		5AD32447290D249B00D9D57D /* VFXBubblyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323EF290D249A00D9D57D /* VFXBubblyView.m */; };
+		5AD32448290D249B00D9D57D /* VFXCosmosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323F0290D249A00D9D57D /* VFXCosmosView.m */; };
+		5AD32449290D249B00D9D57D /* VFXAntigravityFlowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323F1290D249A00D9D57D /* VFXAntigravityFlowView.h */; };
+		5AD3244A290D249B00D9D57D /* VFXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323F2290D249A00D9D57D /* VFXView.m */; };
+		5AD3244B290D249B00D9D57D /* VFXSnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323F3290D249A00D9D57D /* VFXSnowView.m */; };
+		5AD3244C290D249B00D9D57D /* VFXFlyBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323F4290D249A00D9D57D /* VFXFlyBubbleView.h */; };
+		5AD3244D290D249B00D9D57D /* VFXBokehPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323F5290D249A00D9D57D /* VFXBokehPatternView.m */; };
+		5AD3244E290D249B00D9D57D /* VFXMidnightSnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323F6290D249A00D9D57D /* VFXMidnightSnowView.m */; };
+		5AD3244F290D249B00D9D57D /* LinearGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323F8290D249A00D9D57D /* LinearGradient.m */; };
+		5AD32450290D249B00D9D57D /* LinearGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323F9290D249A00D9D57D /* LinearGradient.h */; };
+		5AD32451290D249B00D9D57D /* VFXPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD323FC290D249A00D9D57D /* VFXPoint.h */; };
+		5AD32452290D249B00D9D57D /* VFXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323FD290D249A00D9D57D /* VFXImage.m */; };
+		5AD32453290D249B00D9D57D /* VFXContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323FE290D249A00D9D57D /* VFXContext.m */; };
+		5AD32454290D249B00D9D57D /* VFXPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD323FF290D249A00D9D57D /* VFXPoint.m */; };
+		5AD32455290D249B00D9D57D /* VFXImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32400290D249A00D9D57D /* VFXImage.h */; };
+		5AD32456290D249B00D9D57D /* VFXContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32401290D249A00D9D57D /* VFXContext.h */; };
+		5AD32457290D249B00D9D57D /* VFXSVGParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32403290D249A00D9D57D /* VFXSVGParticle.h */; };
+		5AD32458290D249B00D9D57D /* VFX2DParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32404290D249A00D9D57D /* VFX2DParticle.m */; };
+		5AD32459290D249B00D9D57D /* VFXAmuletParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32405290D249A00D9D57D /* VFXAmuletParticle.m */; };
+		5AD3245A290D249B00D9D57D /* VFXMidnightSnowParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32406290D249A00D9D57D /* VFXMidnightSnowParticle.h */; };
+		5AD3245B290D249B00D9D57D /* VFXAntigravityFlowParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32407290D249A00D9D57D /* VFXAntigravityFlowParticle.m */; };
+		5AD3245C290D249B00D9D57D /* VFXRainParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32408290D249A00D9D57D /* VFXRainParticle.h */; };
+		5AD3245D290D249B00D9D57D /* VFXBokehPatternParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32409290D249A00D9D57D /* VFXBokehPatternParticle.m */; };
+		5AD3245E290D249B00D9D57D /* VFXCosmosParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3240A290D249A00D9D57D /* VFXCosmosParticle.m */; };
+		5AD3245F290D249B00D9D57D /* VFXFlyBubbleParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3240B290D249A00D9D57D /* VFXFlyBubbleParticle.h */; };
+		5AD32460290D249B00D9D57D /* VFXLiquidParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3240C290D249A00D9D57D /* VFXLiquidParticle.h */; };
+		5AD32461290D249B00D9D57D /* VFXFloatCircleParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3240D290D249A00D9D57D /* VFXFloatCircleParticle.m */; };
+		5AD32462290D249B00D9D57D /* VFXContourParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3240E290D249A00D9D57D /* VFXContourParticle.m */; };
+		5AD32463290D249B00D9D57D /* VFXSnowViewParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3240F290D249A00D9D57D /* VFXSnowViewParticle.h */; };
+		5AD32464290D249B00D9D57D /* VFXBubblyParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32410290D249A00D9D57D /* VFXBubblyParticle.h */; };
+		5AD32465290D249B00D9D57D /* VFXBokehPatternParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32411290D249A00D9D57D /* VFXBokehPatternParticle.h */; };
+		5AD32466290D249B00D9D57D /* VFXRainParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32412290D249A00D9D57D /* VFXRainParticle.m */; };
+		5AD32467290D249B00D9D57D /* VFXAntigravityFlowParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32413290D249A00D9D57D /* VFXAntigravityFlowParticle.h */; };
+		5AD32468290D249B00D9D57D /* VFXMidnightSnowParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32414290D249A00D9D57D /* VFXMidnightSnowParticle.m */; };
+		5AD32469290D249B00D9D57D /* VFXAmuletParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32415290D249A00D9D57D /* VFXAmuletParticle.h */; };
+		5AD3246A290D249B00D9D57D /* VFXSVGParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32416290D249A00D9D57D /* VFXSVGParticle.m */; };
+		5AD3246B290D249B00D9D57D /* VFX2DParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32417290D249A00D9D57D /* VFX2DParticle.h */; };
+		5AD3246C290D249B00D9D57D /* VFXLiquidParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32418290D249A00D9D57D /* VFXLiquidParticle.m */; };
+		5AD3246D290D249B00D9D57D /* VFXFlyBubbleParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32419290D249A00D9D57D /* VFXFlyBubbleParticle.m */; };
+		5AD3246E290D249B00D9D57D /* VFXCosmosParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3241A290D249A00D9D57D /* VFXCosmosParticle.h */; };
+		5AD3246F290D249B00D9D57D /* VFXFloatCircleParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3241B290D249A00D9D57D /* VFXFloatCircleParticle.h */; };
+		5AD32470290D249B00D9D57D /* VFXBubblyParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3241C290D249A00D9D57D /* VFXBubblyParticle.m */; };
+		5AD32471290D249B00D9D57D /* VFXParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3241D290D249A00D9D57D /* VFXParticle.h */; };
+		5AD32472290D249B00D9D57D /* VFXSnowViewParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3241E290D249A00D9D57D /* VFXSnowViewParticle.m */; };
+		5AD32473290D249B00D9D57D /* VFXContourParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3241F290D249A00D9D57D /* VFXContourParticle.h */; };
+		5AD32475290D249B00D9D57D /* UIImage+VFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32423290D249A00D9D57D /* UIImage+VFX.h */; };
+		5AD32476290D249B00D9D57D /* UIColor+VFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32424290D249A00D9D57D /* UIColor+VFX.m */; };
+		5AD32477290D249B00D9D57D /* UIBezierPath+VFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32425290D249A00D9D57D /* UIBezierPath+VFX.h */; };
+		5AD32478290D249B00D9D57D /* UIView+VFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32426290D249A00D9D57D /* UIView+VFX.m */; };
+		5AD32479290D249B00D9D57D /* UIBezierPath+VFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32427290D249A00D9D57D /* UIBezierPath+VFX.m */; };
+		5AD3247A290D249B00D9D57D /* UIColor+VFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32428290D249A00D9D57D /* UIColor+VFX.h */; };
+		5AD3247B290D249B00D9D57D /* UIImage+VFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32429290D249A00D9D57D /* UIImage+VFX.m */; };
+		5AD3247C290D249B00D9D57D /* UIView+VFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3242A290D249A00D9D57D /* UIView+VFX.h */; };
+		5AD3247D290D249B00D9D57D /* NSError+VFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3242C290D249A00D9D57D /* NSError+VFX.h */; };
+		5AD3247E290D249B00D9D57D /* NSArray+VFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3242D290D249A00D9D57D /* NSArray+VFX.h */; };
+		5AD3247F290D249B00D9D57D /* NSMutableArray+VFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3242E290D249A00D9D57D /* NSMutableArray+VFX.m */; };
+		5AD32480290D249B00D9D57D /* NSNumber+VFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD3242F290D249A00D9D57D /* NSNumber+VFX.h */; };
+		5AD32481290D249B00D9D57D /* NSMutableArray+VFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32430290D249A00D9D57D /* NSMutableArray+VFX.h */; };
+		5AD32482290D249B00D9D57D /* NSArray+VFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32431290D249A00D9D57D /* NSArray+VFX.m */; };
+		5AD32483290D249B00D9D57D /* NSError+VFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32432290D249A00D9D57D /* NSError+VFX.m */; };
+		5AD32484290D249B00D9D57D /* NSNumber+VFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD32433290D249A00D9D57D /* NSNumber+VFX.m */; };
+		5AD32485290D249B00D9D57D /* iOSVFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD32434290D249A00D9D57D /* iOSVFX.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +171,86 @@
 		5AC3EB9F25189E7A00D8C208 /* VFXParticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFXParticleModel.swift; sourceTree = "<group>"; };
 		5AC3EBA725189FAB00D8C208 /* Number+VFX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number+VFX.swift"; sourceTree = "<group>"; };
 		5AC3EBAF2518AA1F00D8C208 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5AD323DC290D249A00D9D57D /* VFXLinearGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXLinearGradientLayer.h; sourceTree = "<group>"; };
+		5AD323DD290D249A00D9D57D /* VFXLinearGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXLinearGradientLayer.m; sourceTree = "<group>"; };
+		5AD323DF290D249A00D9D57D /* VFXLiquidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXLiquidView.m; sourceTree = "<group>"; };
+		5AD323E0290D249A00D9D57D /* VFXAntigravityFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXAntigravityFlowView.m; sourceTree = "<group>"; };
+		5AD323E1290D249A00D9D57D /* VFXCosmosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXCosmosView.h; sourceTree = "<group>"; };
+		5AD323E2290D249A00D9D57D /* VFXRainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXRainView.m; sourceTree = "<group>"; };
+		5AD323E3290D249A00D9D57D /* VFXContourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXContourView.h; sourceTree = "<group>"; };
+		5AD323E4290D249A00D9D57D /* VFXBubblyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXBubblyView.h; sourceTree = "<group>"; };
+		5AD323E5290D249A00D9D57D /* VFXRipleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXRipleView.m; sourceTree = "<group>"; };
+		5AD323E6290D249A00D9D57D /* VFXFlyBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXFlyBubbleView.m; sourceTree = "<group>"; };
+		5AD323E7290D249A00D9D57D /* VFXSnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXSnowView.h; sourceTree = "<group>"; };
+		5AD323E8290D249A00D9D57D /* VFXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXView.h; sourceTree = "<group>"; };
+		5AD323E9290D249A00D9D57D /* VFXMidnightSnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXMidnightSnowView.h; sourceTree = "<group>"; };
+		5AD323EA290D249A00D9D57D /* VFXBokehPatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXBokehPatternView.h; sourceTree = "<group>"; };
+		5AD323EB290D249A00D9D57D /* VFXLiquidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXLiquidView.h; sourceTree = "<group>"; };
+		5AD323EC290D249A00D9D57D /* VFXRipleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXRipleView.h; sourceTree = "<group>"; };
+		5AD323ED290D249A00D9D57D /* VFXRainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXRainView.h; sourceTree = "<group>"; };
+		5AD323EE290D249A00D9D57D /* VFXContourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXContourView.m; sourceTree = "<group>"; };
+		5AD323EF290D249A00D9D57D /* VFXBubblyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXBubblyView.m; sourceTree = "<group>"; };
+		5AD323F0290D249A00D9D57D /* VFXCosmosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXCosmosView.m; sourceTree = "<group>"; };
+		5AD323F1290D249A00D9D57D /* VFXAntigravityFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXAntigravityFlowView.h; sourceTree = "<group>"; };
+		5AD323F2290D249A00D9D57D /* VFXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXView.m; sourceTree = "<group>"; };
+		5AD323F3290D249A00D9D57D /* VFXSnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXSnowView.m; sourceTree = "<group>"; };
+		5AD323F4290D249A00D9D57D /* VFXFlyBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXFlyBubbleView.h; sourceTree = "<group>"; };
+		5AD323F5290D249A00D9D57D /* VFXBokehPatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXBokehPatternView.m; sourceTree = "<group>"; };
+		5AD323F6290D249A00D9D57D /* VFXMidnightSnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXMidnightSnowView.m; sourceTree = "<group>"; };
+		5AD323F8290D249A00D9D57D /* LinearGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearGradient.m; sourceTree = "<group>"; };
+		5AD323F9290D249A00D9D57D /* LinearGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearGradient.h; sourceTree = "<group>"; };
+		5AD323FC290D249A00D9D57D /* VFXPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXPoint.h; sourceTree = "<group>"; };
+		5AD323FD290D249A00D9D57D /* VFXImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXImage.m; sourceTree = "<group>"; };
+		5AD323FE290D249A00D9D57D /* VFXContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXContext.m; sourceTree = "<group>"; };
+		5AD323FF290D249A00D9D57D /* VFXPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXPoint.m; sourceTree = "<group>"; };
+		5AD32400290D249A00D9D57D /* VFXImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXImage.h; sourceTree = "<group>"; };
+		5AD32401290D249A00D9D57D /* VFXContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXContext.h; sourceTree = "<group>"; };
+		5AD32403290D249A00D9D57D /* VFXSVGParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXSVGParticle.h; sourceTree = "<group>"; };
+		5AD32404290D249A00D9D57D /* VFX2DParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFX2DParticle.m; sourceTree = "<group>"; };
+		5AD32405290D249A00D9D57D /* VFXAmuletParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXAmuletParticle.m; sourceTree = "<group>"; };
+		5AD32406290D249A00D9D57D /* VFXMidnightSnowParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXMidnightSnowParticle.h; sourceTree = "<group>"; };
+		5AD32407290D249A00D9D57D /* VFXAntigravityFlowParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXAntigravityFlowParticle.m; sourceTree = "<group>"; };
+		5AD32408290D249A00D9D57D /* VFXRainParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXRainParticle.h; sourceTree = "<group>"; };
+		5AD32409290D249A00D9D57D /* VFXBokehPatternParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXBokehPatternParticle.m; sourceTree = "<group>"; };
+		5AD3240A290D249A00D9D57D /* VFXCosmosParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXCosmosParticle.m; sourceTree = "<group>"; };
+		5AD3240B290D249A00D9D57D /* VFXFlyBubbleParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXFlyBubbleParticle.h; sourceTree = "<group>"; };
+		5AD3240C290D249A00D9D57D /* VFXLiquidParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXLiquidParticle.h; sourceTree = "<group>"; };
+		5AD3240D290D249A00D9D57D /* VFXFloatCircleParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXFloatCircleParticle.m; sourceTree = "<group>"; };
+		5AD3240E290D249A00D9D57D /* VFXContourParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXContourParticle.m; sourceTree = "<group>"; };
+		5AD3240F290D249A00D9D57D /* VFXSnowViewParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXSnowViewParticle.h; sourceTree = "<group>"; };
+		5AD32410290D249A00D9D57D /* VFXBubblyParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXBubblyParticle.h; sourceTree = "<group>"; };
+		5AD32411290D249A00D9D57D /* VFXBokehPatternParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXBokehPatternParticle.h; sourceTree = "<group>"; };
+		5AD32412290D249A00D9D57D /* VFXRainParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXRainParticle.m; sourceTree = "<group>"; };
+		5AD32413290D249A00D9D57D /* VFXAntigravityFlowParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXAntigravityFlowParticle.h; sourceTree = "<group>"; };
+		5AD32414290D249A00D9D57D /* VFXMidnightSnowParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXMidnightSnowParticle.m; sourceTree = "<group>"; };
+		5AD32415290D249A00D9D57D /* VFXAmuletParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXAmuletParticle.h; sourceTree = "<group>"; };
+		5AD32416290D249A00D9D57D /* VFXSVGParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXSVGParticle.m; sourceTree = "<group>"; };
+		5AD32417290D249A00D9D57D /* VFX2DParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFX2DParticle.h; sourceTree = "<group>"; };
+		5AD32418290D249A00D9D57D /* VFXLiquidParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXLiquidParticle.m; sourceTree = "<group>"; };
+		5AD32419290D249A00D9D57D /* VFXFlyBubbleParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXFlyBubbleParticle.m; sourceTree = "<group>"; };
+		5AD3241A290D249A00D9D57D /* VFXCosmosParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXCosmosParticle.h; sourceTree = "<group>"; };
+		5AD3241B290D249A00D9D57D /* VFXFloatCircleParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXFloatCircleParticle.h; sourceTree = "<group>"; };
+		5AD3241C290D249A00D9D57D /* VFXBubblyParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXBubblyParticle.m; sourceTree = "<group>"; };
+		5AD3241D290D249A00D9D57D /* VFXParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXParticle.h; sourceTree = "<group>"; };
+		5AD3241E290D249A00D9D57D /* VFXSnowViewParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFXSnowViewParticle.m; sourceTree = "<group>"; };
+		5AD3241F290D249A00D9D57D /* VFXContourParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFXContourParticle.h; sourceTree = "<group>"; };
+		5AD32423290D249A00D9D57D /* UIImage+VFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VFX.h"; sourceTree = "<group>"; };
+		5AD32424290D249A00D9D57D /* UIColor+VFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VFX.m"; sourceTree = "<group>"; };
+		5AD32425290D249A00D9D57D /* UIBezierPath+VFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+VFX.h"; sourceTree = "<group>"; };
+		5AD32426290D249A00D9D57D /* UIView+VFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VFX.m"; sourceTree = "<group>"; };
+		5AD32427290D249A00D9D57D /* UIBezierPath+VFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+VFX.m"; sourceTree = "<group>"; };
+		5AD32428290D249A00D9D57D /* UIColor+VFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VFX.h"; sourceTree = "<group>"; };
+		5AD32429290D249A00D9D57D /* UIImage+VFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VFX.m"; sourceTree = "<group>"; };
+		5AD3242A290D249A00D9D57D /* UIView+VFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VFX.h"; sourceTree = "<group>"; };
+		5AD3242C290D249A00D9D57D /* NSError+VFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+VFX.h"; sourceTree = "<group>"; };
+		5AD3242D290D249A00D9D57D /* NSArray+VFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+VFX.h"; sourceTree = "<group>"; };
+		5AD3242E290D249A00D9D57D /* NSMutableArray+VFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+VFX.m"; sourceTree = "<group>"; };
+		5AD3242F290D249A00D9D57D /* NSNumber+VFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+VFX.h"; sourceTree = "<group>"; };
+		5AD32430290D249A00D9D57D /* NSMutableArray+VFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+VFX.h"; sourceTree = "<group>"; };
+		5AD32431290D249A00D9D57D /* NSArray+VFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+VFX.m"; sourceTree = "<group>"; };
+		5AD32432290D249A00D9D57D /* NSError+VFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+VFX.m"; sourceTree = "<group>"; };
+		5AD32433290D249A00D9D57D /* NSNumber+VFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+VFX.m"; sourceTree = "<group>"; };
+		5AD32434290D249A00D9D57D /* iOSVFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSVFX.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +322,7 @@
 		5A4308BD25162C8400684820 /* VFXView */ = {
 			isa = PBXGroup;
 			children = (
+				5AD323D9290D246000D9D57D /* iOSVFX */,
 				5A4308E72516333000684820 /* Common */,
 				5A4308DC25162E0500684820 /* View */,
 				5A4308D725162C9400684820 /* Layout */,
@@ -246,6 +407,173 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5AD323D9290D246000D9D57D /* iOSVFX */ = {
+			isa = PBXGroup;
+			children = (
+				5AD323DA290D249A00D9D57D /* Component */,
+				5AD32421290D249A00D9D57D /* Extension */,
+				5AD32434290D249A00D9D57D /* iOSVFX.h */,
+				5AD323F7290D249A00D9D57D /* Model */,
+				5AD323FA290D249A00D9D57D /* VFX */,
+			);
+			path = iOSVFX;
+			sourceTree = "<group>";
+		};
+		5AD323DA290D249A00D9D57D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5AD323DB290D249A00D9D57D /* Layer */,
+				5AD323DE290D249A00D9D57D /* View */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		5AD323DB290D249A00D9D57D /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				5AD323DC290D249A00D9D57D /* VFXLinearGradientLayer.h */,
+				5AD323DD290D249A00D9D57D /* VFXLinearGradientLayer.m */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		5AD323DE290D249A00D9D57D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AD323DF290D249A00D9D57D /* VFXLiquidView.m */,
+				5AD323E0290D249A00D9D57D /* VFXAntigravityFlowView.m */,
+				5AD323E1290D249A00D9D57D /* VFXCosmosView.h */,
+				5AD323E2290D249A00D9D57D /* VFXRainView.m */,
+				5AD323E3290D249A00D9D57D /* VFXContourView.h */,
+				5AD323E4290D249A00D9D57D /* VFXBubblyView.h */,
+				5AD323E5290D249A00D9D57D /* VFXRipleView.m */,
+				5AD323E6290D249A00D9D57D /* VFXFlyBubbleView.m */,
+				5AD323E7290D249A00D9D57D /* VFXSnowView.h */,
+				5AD323E8290D249A00D9D57D /* VFXView.h */,
+				5AD323E9290D249A00D9D57D /* VFXMidnightSnowView.h */,
+				5AD323EA290D249A00D9D57D /* VFXBokehPatternView.h */,
+				5AD323EB290D249A00D9D57D /* VFXLiquidView.h */,
+				5AD323EC290D249A00D9D57D /* VFXRipleView.h */,
+				5AD323ED290D249A00D9D57D /* VFXRainView.h */,
+				5AD323EE290D249A00D9D57D /* VFXContourView.m */,
+				5AD323EF290D249A00D9D57D /* VFXBubblyView.m */,
+				5AD323F0290D249A00D9D57D /* VFXCosmosView.m */,
+				5AD323F1290D249A00D9D57D /* VFXAntigravityFlowView.h */,
+				5AD323F2290D249A00D9D57D /* VFXView.m */,
+				5AD323F3290D249A00D9D57D /* VFXSnowView.m */,
+				5AD323F4290D249A00D9D57D /* VFXFlyBubbleView.h */,
+				5AD323F5290D249A00D9D57D /* VFXBokehPatternView.m */,
+				5AD323F6290D249A00D9D57D /* VFXMidnightSnowView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AD323F7290D249A00D9D57D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AD323F8290D249A00D9D57D /* LinearGradient.m */,
+				5AD323F9290D249A00D9D57D /* LinearGradient.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AD323FA290D249A00D9D57D /* VFX */ = {
+			isa = PBXGroup;
+			children = (
+				5AD323FB290D249A00D9D57D /* Graphic */,
+				5AD32402290D249A00D9D57D /* Particle */,
+			);
+			path = VFX;
+			sourceTree = "<group>";
+		};
+		5AD323FB290D249A00D9D57D /* Graphic */ = {
+			isa = PBXGroup;
+			children = (
+				5AD323FC290D249A00D9D57D /* VFXPoint.h */,
+				5AD323FD290D249A00D9D57D /* VFXImage.m */,
+				5AD323FE290D249A00D9D57D /* VFXContext.m */,
+				5AD323FF290D249A00D9D57D /* VFXPoint.m */,
+				5AD32400290D249A00D9D57D /* VFXImage.h */,
+				5AD32401290D249A00D9D57D /* VFXContext.h */,
+			);
+			path = Graphic;
+			sourceTree = "<group>";
+		};
+		5AD32402290D249A00D9D57D /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				5AD32403290D249A00D9D57D /* VFXSVGParticle.h */,
+				5AD32404290D249A00D9D57D /* VFX2DParticle.m */,
+				5AD32405290D249A00D9D57D /* VFXAmuletParticle.m */,
+				5AD32406290D249A00D9D57D /* VFXMidnightSnowParticle.h */,
+				5AD32407290D249A00D9D57D /* VFXAntigravityFlowParticle.m */,
+				5AD32408290D249A00D9D57D /* VFXRainParticle.h */,
+				5AD32409290D249A00D9D57D /* VFXBokehPatternParticle.m */,
+				5AD3240A290D249A00D9D57D /* VFXCosmosParticle.m */,
+				5AD3240B290D249A00D9D57D /* VFXFlyBubbleParticle.h */,
+				5AD3240C290D249A00D9D57D /* VFXLiquidParticle.h */,
+				5AD3240D290D249A00D9D57D /* VFXFloatCircleParticle.m */,
+				5AD3240E290D249A00D9D57D /* VFXContourParticle.m */,
+				5AD3240F290D249A00D9D57D /* VFXSnowViewParticle.h */,
+				5AD32410290D249A00D9D57D /* VFXBubblyParticle.h */,
+				5AD32411290D249A00D9D57D /* VFXBokehPatternParticle.h */,
+				5AD32412290D249A00D9D57D /* VFXRainParticle.m */,
+				5AD32413290D249A00D9D57D /* VFXAntigravityFlowParticle.h */,
+				5AD32414290D249A00D9D57D /* VFXMidnightSnowParticle.m */,
+				5AD32415290D249A00D9D57D /* VFXAmuletParticle.h */,
+				5AD32416290D249A00D9D57D /* VFXSVGParticle.m */,
+				5AD32417290D249A00D9D57D /* VFX2DParticle.h */,
+				5AD32418290D249A00D9D57D /* VFXLiquidParticle.m */,
+				5AD32419290D249A00D9D57D /* VFXFlyBubbleParticle.m */,
+				5AD3241A290D249A00D9D57D /* VFXCosmosParticle.h */,
+				5AD3241B290D249A00D9D57D /* VFXFloatCircleParticle.h */,
+				5AD3241C290D249A00D9D57D /* VFXBubblyParticle.m */,
+				5AD3241D290D249A00D9D57D /* VFXParticle.h */,
+				5AD3241E290D249A00D9D57D /* VFXSnowViewParticle.m */,
+				5AD3241F290D249A00D9D57D /* VFXContourParticle.h */,
+			);
+			path = Particle;
+			sourceTree = "<group>";
+		};
+		5AD32421290D249A00D9D57D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5AD32422290D249A00D9D57D /* UIKit */,
+				5AD3242B290D249A00D9D57D /* Foundation */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5AD32422290D249A00D9D57D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5AD32423290D249A00D9D57D /* UIImage+VFX.h */,
+				5AD32424290D249A00D9D57D /* UIColor+VFX.m */,
+				5AD32425290D249A00D9D57D /* UIBezierPath+VFX.h */,
+				5AD32426290D249A00D9D57D /* UIView+VFX.m */,
+				5AD32427290D249A00D9D57D /* UIBezierPath+VFX.m */,
+				5AD32428290D249A00D9D57D /* UIColor+VFX.h */,
+				5AD32429290D249A00D9D57D /* UIImage+VFX.m */,
+				5AD3242A290D249A00D9D57D /* UIView+VFX.h */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5AD3242B290D249A00D9D57D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5AD3242C290D249A00D9D57D /* NSError+VFX.h */,
+				5AD3242D290D249A00D9D57D /* NSArray+VFX.h */,
+				5AD3242E290D249A00D9D57D /* NSMutableArray+VFX.m */,
+				5AD3242F290D249A00D9D57D /* NSNumber+VFX.h */,
+				5AD32430290D249A00D9D57D /* NSMutableArray+VFX.h */,
+				5AD32431290D249A00D9D57D /* NSArray+VFX.m */,
+				5AD32432290D249A00D9D57D /* NSError+VFX.m */,
+				5AD32433290D249A00D9D57D /* NSNumber+VFX.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -253,7 +581,48 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD32435290D249B00D9D57D /* VFXLinearGradientLayer.h in Headers */,
+				5AD3245F290D249B00D9D57D /* VFXFlyBubbleParticle.h in Headers */,
+				5AD32450290D249B00D9D57D /* LinearGradient.h in Headers */,
+				5AD3243F290D249B00D9D57D /* VFXSnowView.h in Headers */,
+				5AD32455290D249B00D9D57D /* VFXImage.h in Headers */,
+				5AD32475290D249B00D9D57D /* UIImage+VFX.h in Headers */,
+				5AD32464290D249B00D9D57D /* VFXBubblyParticle.h in Headers */,
+				5AD32467290D249B00D9D57D /* VFXAntigravityFlowParticle.h in Headers */,
+				5AD32463290D249B00D9D57D /* VFXSnowViewParticle.h in Headers */,
+				5AD32481290D249B00D9D57D /* NSMutableArray+VFX.h in Headers */,
+				5AD32444290D249B00D9D57D /* VFXRipleView.h in Headers */,
+				5AD3243C290D249B00D9D57D /* VFXBubblyView.h in Headers */,
+				5AD3245A290D249B00D9D57D /* VFXMidnightSnowParticle.h in Headers */,
+				5AD32471290D249B00D9D57D /* VFXParticle.h in Headers */,
+				5AD32480290D249B00D9D57D /* NSNumber+VFX.h in Headers */,
+				5AD32485290D249B00D9D57D /* iOSVFX.h in Headers */,
+				5AD32449290D249B00D9D57D /* VFXAntigravityFlowView.h in Headers */,
+				5AD3246B290D249B00D9D57D /* VFX2DParticle.h in Headers */,
+				5AD3246E290D249B00D9D57D /* VFXCosmosParticle.h in Headers */,
+				5AD32445290D249B00D9D57D /* VFXRainView.h in Headers */,
+				5AD3247C290D249B00D9D57D /* UIView+VFX.h in Headers */,
+				5AD32469290D249B00D9D57D /* VFXAmuletParticle.h in Headers */,
+				5AD32440290D249B00D9D57D /* VFXView.h in Headers */,
+				5AD3247A290D249B00D9D57D /* UIColor+VFX.h in Headers */,
+				5AD3247E290D249B00D9D57D /* NSArray+VFX.h in Headers */,
+				5AD32439290D249B00D9D57D /* VFXCosmosView.h in Headers */,
+				5AD32441290D249B00D9D57D /* VFXMidnightSnowView.h in Headers */,
+				5AD32443290D249B00D9D57D /* VFXLiquidView.h in Headers */,
+				5AD3245C290D249B00D9D57D /* VFXRainParticle.h in Headers */,
+				5AD32460290D249B00D9D57D /* VFXLiquidParticle.h in Headers */,
+				5AD3244C290D249B00D9D57D /* VFXFlyBubbleView.h in Headers */,
 				5A4308CC25162C8400684820 /* VFXView.h in Headers */,
+				5AD3243B290D249B00D9D57D /* VFXContourView.h in Headers */,
+				5AD32456290D249B00D9D57D /* VFXContext.h in Headers */,
+				5AD32451290D249B00D9D57D /* VFXPoint.h in Headers */,
+				5AD32477290D249B00D9D57D /* UIBezierPath+VFX.h in Headers */,
+				5AD3246F290D249B00D9D57D /* VFXFloatCircleParticle.h in Headers */,
+				5AD32442290D249B00D9D57D /* VFXBokehPatternView.h in Headers */,
+				5AD32465290D249B00D9D57D /* VFXBokehPatternParticle.h in Headers */,
+				5AD32457290D249B00D9D57D /* VFXSVGParticle.h in Headers */,
+				5AD32473290D249B00D9D57D /* VFXContourParticle.h in Headers */,
+				5AD3247D290D249B00D9D57D /* NSError+VFX.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,12 +819,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD32458290D249B00D9D57D /* VFX2DParticle.m in Sources */,
+				5AD3244B290D249B00D9D57D /* VFXSnowView.m in Sources */,
+				5AD3245E290D249B00D9D57D /* VFXCosmosParticle.m in Sources */,
+				5AD32462290D249B00D9D57D /* VFXContourParticle.m in Sources */,
+				5AD32476290D249B00D9D57D /* UIColor+VFX.m in Sources */,
+				5AD3245D290D249B00D9D57D /* VFXBokehPatternParticle.m in Sources */,
+				5AD32461290D249B00D9D57D /* VFXFloatCircleParticle.m in Sources */,
+				5AD32478290D249B00D9D57D /* UIView+VFX.m in Sources */,
+				5AD32470290D249B00D9D57D /* VFXBubblyParticle.m in Sources */,
+				5AD32466290D249B00D9D57D /* VFXRainParticle.m in Sources */,
+				5AD32436290D249B00D9D57D /* VFXLinearGradientLayer.m in Sources */,
+				5AD32448290D249B00D9D57D /* VFXCosmosView.m in Sources */,
+				5AD3247B290D249B00D9D57D /* UIImage+VFX.m in Sources */,
+				5AD32437290D249B00D9D57D /* VFXLiquidView.m in Sources */,
+				5AD32452290D249B00D9D57D /* VFXImage.m in Sources */,
+				5AD3246D290D249B00D9D57D /* VFXFlyBubbleParticle.m in Sources */,
+				5AD3244A290D249B00D9D57D /* VFXView.m in Sources */,
 				5AC3EBA825189FAB00D8C208 /* Number+VFX.swift in Sources */,
+				5AD32447290D249B00D9D57D /* VFXBubblyView.m in Sources */,
+				5AD32446290D249B00D9D57D /* VFXContourView.m in Sources */,
+				5AD32483290D249B00D9D57D /* NSError+VFX.m in Sources */,
+				5AD3244D290D249B00D9D57D /* VFXBokehPatternView.m in Sources */,
+				5AD3246A290D249B00D9D57D /* VFXSVGParticle.m in Sources */,
 				5A4308E42516315300684820 /* VFXSnowView.swift in Sources */,
+				5AD32438290D249B00D9D57D /* VFXAntigravityFlowView.m in Sources */,
+				5AD3247F290D249B00D9D57D /* NSMutableArray+VFX.m in Sources */,
+				5AD32453290D249B00D9D57D /* VFXContext.m in Sources */,
 				5A4308D925162CA600684820 /* VFXLayout.swift in Sources */,
 				5AC3EBA025189E7A00D8C208 /* VFXParticleModel.swift in Sources */,
 				5A4308DE25162E2400684820 /* VFXView.swift in Sources */,
 				5AC3EBB02518AA1F00D8C208 /* Color.swift in Sources */,
+				5AD32482290D249B00D9D57D /* NSArray+VFX.m in Sources */,
+				5AD32479290D249B00D9D57D /* UIBezierPath+VFX.m in Sources */,
+				5AD32468290D249B00D9D57D /* VFXMidnightSnowParticle.m in Sources */,
+				5AD32472290D249B00D9D57D /* VFXSnowViewParticle.m in Sources */,
+				5AD3243A290D249B00D9D57D /* VFXRainView.m in Sources */,
+				5AD3245B290D249B00D9D57D /* VFXAntigravityFlowParticle.m in Sources */,
+				5AD3244F290D249B00D9D57D /* LinearGradient.m in Sources */,
+				5AD3243D290D249B00D9D57D /* VFXRipleView.m in Sources */,
+				5AD32484290D249B00D9D57D /* NSNumber+VFX.m in Sources */,
+				5AD32454290D249B00D9D57D /* VFXPoint.m in Sources */,
+				5AD3246C290D249B00D9D57D /* VFXLiquidParticle.m in Sources */,
+				5AD3244E290D249B00D9D57D /* VFXMidnightSnowView.m in Sources */,
+				5AD3243E290D249B00D9D57D /* VFXFlyBubbleView.m in Sources */,
+				5AD32459290D249B00D9D57D /* VFXAmuletParticle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
