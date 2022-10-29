@@ -4,7 +4,7 @@
 //
 //  Created by Le Quang on 9/19/20.
 //
-
+/*
 import UIKit
 
 public protocol VFXViewAnimatable {
@@ -251,3 +251,4 @@ extension VFXView : VFXViewAnimatable {
     }
     
 }
+ */

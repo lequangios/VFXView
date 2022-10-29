@@ -5,7 +5,7 @@
 //  Created by Le Quang on 24/09/2022.
 //
 
-#import "VFXView.h"
+#import "VFXBaseView.h"
 #import "NSError+VFX.h"
 #import "VFX2DParticle.h"
 

@@ -69,7 +69,7 @@
     path.lineWidth = _lineWidth;
     CGContextSaveGState(ctx);
     [_endColor setStroke];
-    [_endColor setFill];
+    //[_endColor setFill];
     [path addClip];
     CGContextDrawLinearGradient(ctx, _f, CGPointMake(self.p.x-_r, self.p.y-_r), CGPointMake(self.p.x+_r, self.p.y + _r), kCGGradientDrawsAfterEndLocation);
     [path closePath];

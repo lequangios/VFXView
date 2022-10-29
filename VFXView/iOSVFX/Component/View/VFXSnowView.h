@@ -5,7 +5,7 @@
 //  Created by Le Quang on 27/09/2022.
 //
 #pragma clang system_header
-#import "VFXView.h"
+#import "VFXBaseView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

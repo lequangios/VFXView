@@ -5,7 +5,7 @@
 //  Created by Le Quang on 06/10/2022.
 //
 
-#import "iOSVFX.h"
+#import "VFXBaseView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
