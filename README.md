@@ -150,3 +150,9 @@ With ** VFXBubblyView** you can create the snow fall effect on your view like be
 <p align="center">
   <img src="https://media.giphy.com/media/w9xVWIW7Yyl6mDB9n5/giphy.gif">
 </p>
+
+## License
+
+`-` **VFXView** is released under the MIT license. [See LICENSE](LICENSE) for details.
+
+`-` Is **VFXView** helpful? Please consider donating to sustain our activities ? Please consider [**donating**](https://www.paypal.me/lequang1988) to sustain my activities.
