@@ -10,15 +10,18 @@ import VFXView
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var snowView: VFXSnowView!
+    //@IBOutlet weak var snowView: VFXSnowView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        snowView.snowCount = 150
-        snowView.snowRadius = 5
-        //snowView.start()
+        var snowView = VFXSnowView.init(frame: view.bounds)
+        snowView.setupVFXView(with: frame: view.bounds)
+        snowView.setupVFXView(with: view.bounds) { view in
+            // Do something
+        }
+        
     }
 
-
+    
 }
 

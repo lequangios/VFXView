@@ -32,11 +32,7 @@ Pod::Spec.new do |spec|
   spec.framework = "UIKit"
   spec.framework = "CoreGraphics"
 
-  #spec.source_files = "VFXView/**/*.{swift}"
-  #spec.source_files = "VFXView/VFXView/iOSVFX/**/*.{h, m}"
-  #spec.source_files = "VFXView/VFXView/iOSVFX/Component/**/*.{h, m}"
-  #spec.source_files = "VFXView/VFXView/iOSVFX/Extension/**/*.{h, m}"
-  #spec.source_files = "VFXView/VFXView/iOSVFX/VFX/**/*.{h, m}"
+  #spec.source_files = "VFXView/**/*.{swift}", "VFXView/iOSVFX/**/*.{h, m}", "VFXView/iOSVFX/Component/**/*.{h, m}", "VFXView/iOSVFX/Extension/**/*.{h, m}", "VFXView/iOSVFX/VFX/**/*.{h, m}"
   spec.source_files = "VFXView/**/*.{swift}", "VFXView/**/**/*.{h, m}", "VFXView/**/**/**/*.{h, m}"
 
   #spec.resources = "VFXView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
